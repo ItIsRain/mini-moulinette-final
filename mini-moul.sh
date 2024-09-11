@@ -15,7 +15,7 @@ function handle_sigint {
 # Function to determine if current directory matches a pattern
 detect_assignment() {
   assignment=$(basename "$(pwd)")
-  [[ $assignment =~ ^C(0[0-9]|1[0-3])$ ]]
+  [[ $assignment =~ ^(FINAL|[0-9]{2}_[a-z0-9_]+)$ ]]
 }
 
 if detect_assignment; then
