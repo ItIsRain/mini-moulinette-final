@@ -186,7 +186,7 @@ if [ "${1}" = "" ]; then
     printf "Please select an assignment. e.g. './test.sh C01'\n"
     exit 1
 fi
-if [[ "${1}" =~ ^C(0[0-9]|1[0-3])$ ]]; then
+if [[ "${1}" =~ ^(FINAL|[0-9]{2}_[a-z0-9_]+)$ ]]; then
     main "$@"
     printf "$DEFAULT"
     exit
