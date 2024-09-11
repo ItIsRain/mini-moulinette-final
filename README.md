@@ -1,3 +1,7 @@
+# Mini-Mohamed-Final-Exam-Moulinette
+
+![mini](https://d.newsweek.com/en/full/2079644/sloth-bear.jpg?w=1200&f=8d6e1096871eab4787188f8ab9000e8c)
+
 # Mini-moulinette
 
 ![mini-moulinette](mini-moulinette.jpg)
